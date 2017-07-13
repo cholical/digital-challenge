@@ -1,0 +1,29 @@
+body {
+	background-color: #2b3e50;
+}
+
+.home-title {
+	color: white;
+    font-size: 70px;
+    font-family: georgia;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#predix-image {
+	width: 100%;
+}
+
+#leaflet-map {
+	padding: 10px;
+	height: 300px;
+}
+
+.long-lat-labels {
+	font-size: 20px;
+    color: white;
+}
+
+.control-panel {
+	padding: 10px;
+}

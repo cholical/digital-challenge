@@ -1,0 +1,20 @@
+<div class="row">
+	<div class="col-xs-12">
+		<img id="predix-image" ng-src="img/predix-logo.png">
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<leaflet id="leaflet-map" markers="markers" center="center"></leaflet>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="control-panel">
+			<label class="long-lat-labels">Latitude</label>
+			<input type="number" class="form-control" ng-model="center.lat">
+			<label class="long-lat-labels">Longitude</label>
+			<input type="number" class="form-control" ng-model="center.lng">
+		</div>
+	</div>
+</div>
