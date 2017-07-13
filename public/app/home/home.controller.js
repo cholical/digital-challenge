@@ -15,16 +15,19 @@
 	            lng: $scope.myPosition.coords.longitude,
 	            zoom: 16
 	        }
-	        $scope.markers = {
-	            currentLocation: {
-	                lat: $scope.myPosition.coords.latitude,
-	                lng: $scope.myPosition.coords.longitude,
-	                message: "We are here!",
-	                focus: true,
-	                draggable: true
-	            }
-        	}
+	        $scope.markers.currentLocation = {
+                lat: $scope.myPosition.coords.latitude,
+                lng: $scope.myPosition.coords.longitude,
+                message: "We are here!",
+                focus: true,
+                draggable: true
+            }
         });
+
+        $scope.tiles = {
+            url: "http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png",
+            options: {}
+        }
         
 	}]);
 }());

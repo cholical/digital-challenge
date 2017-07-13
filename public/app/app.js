@@ -25,6 +25,8 @@
     angular.extend($rootScope, {
       center: {},
       markers: {},
+      defaults: {},
+      tiles: {}
     });
   }]);
 
